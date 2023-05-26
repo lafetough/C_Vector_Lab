@@ -3,4 +3,4 @@ project(C_Vector_Lab C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(data_structures vector.h vector.c)
+add_library(data_structures vector.h vector.c voidVector.c voidVector.h)

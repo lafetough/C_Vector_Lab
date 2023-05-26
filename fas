@@ -1,0 +1,71 @@
+[33mcommit 8e535d98b76861b2863546ec184b53196f2eee91[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: User <klad.vad@yandex.ru>
+Date:   Fri May 26 23:40:46 2023 +0300
+
+    refactoring
+
+ libs/data_structures/vector/vector.c | 3 [32m++[m[31m-[m
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+[33mcommit b7630e47d5cde0658da34474183561c6a25c849e[m
+Author: User <klad.vad@yandex.ru>
+Date:   Fri May 26 23:37:19 2023 +0300
+
+    append access functions
+
+ libs/data_structures/vector/vector.c | 22 [32m++++++++++++++++++++++[m
+ 1 file changed, 22 insertions(+)
+
+[33mcommit be307e0c6b23eb561b961aa16caa630682145ea8[m
+Author: User <klad.vad@yandex.ru>
+Date:   Fri May 26 23:20:31 2023 +0300
+
+    append push / pop functions
+
+ libs/data_structures/vector/vector.c | 31 [32m+++++++++++++++++++++++++++++++[m
+ 1 file changed, 31 insertions(+)
+
+[33mcommit 17283e2cb41e7815141722183a548c0ec77d210e[m
+Author: User <klad.vad@yandex.ru>
+Date:   Fri May 26 22:46:06 2023 +0300
+
+    memory usage of vector
+
+ libs/data_structures/vector/vector.c | 6 [32m++++++[m
+ 1 file changed, 6 insertions(+)
+
+[33mcommit 76f1e0793675e5749143a97bee8546288dd03f85[m
+Author: User <klad.vad@yandex.ru>
+Date:   Fri May 26 22:44:09 2023 +0300
+
+    shrinkToFit func added
+
+ libs/data_structures/vector/vector.c | 4 [32m++++[m
+ 1 file changed, 4 insertions(+)
+
+[33mcommit 7b2fd424c29b6f73077b573cc920843278b45b20[m
+Author: User <klad.vad@yandex.ru>
+Date:   Fri May 26 22:42:27 2023 +0300
+
+    clear func added
+
+ libs/data_structures/vector/vector.c | 3 [32m+++[m
+ 1 file changed, 3 insertions(+)
+
+[33mcommit 9a847f69ff278cd61df7c6e713c567aba9d3442a[m
+Author: User <klad.vad@yandex.ru>
+Date:   Fri May 26 22:42:04 2023 +0300
+
+    reverve func added
+
+ libs/data_structures/vector/vector.c | 23 [32m++++++++++++++++++++++[m[31m-[m
+ 1 file changed, 22 insertions(+), 1 deletion(-)
+
+[33mcommit d024d4f5f224347d596de42fb5697f7effbdf9a3[m
+Author: User <klad.vad@yandex.ru>
+Date:   Fri May 26 21:53:48 2023 +0300
+
+    createVector func added
+
+ libs/data_structures/vector/vector.c | 17 [32m+++++++++++++++++[m
+ 1 file changed, 17 insertions(+)

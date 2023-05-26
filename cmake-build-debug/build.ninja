@@ -116,6 +116,12 @@ build VectorLib/CMakeFiles/data_structures.dir/vector.c.obj: C_COMPILER__data_st
   OBJECT_DIR = VectorLib\CMakeFiles\data_structures.dir
   OBJECT_FILE_DIR = VectorLib\CMakeFiles\data_structures.dir
 
+build VectorLib/CMakeFiles/data_structures.dir/voidVector.c.obj: C_COMPILER__data_structures_Debug H$:/OP_Labs/C_vector/C_Vector_Lab/libs/data_structures/vector/voidVector.c || cmake_object_order_depends_target_data_structures
+  DEP_FILE = VectorLib\CMakeFiles\data_structures.dir\voidVector.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = VectorLib\CMakeFiles\data_structures.dir
+  OBJECT_FILE_DIR = VectorLib\CMakeFiles\data_structures.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target data_structures
@@ -124,7 +130,7 @@ build VectorLib/CMakeFiles/data_structures.dir/vector.c.obj: C_COMPILER__data_st
 #############################################
 # Link the static library VectorLib\libdata_structures.a
 
-build VectorLib/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_structures_Debug VectorLib/CMakeFiles/data_structures.dir/vector.c.obj
+build VectorLib/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_structures_Debug VectorLib/CMakeFiles/data_structures.dir/vector.c.obj VectorLib/CMakeFiles/data_structures.dir/voidVector.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = VectorLib\CMakeFiles\data_structures.dir
   POST_BUILD = cd .
