@@ -11,4 +11,4 @@ vector createVector(size_t n);
 
 void reserve(vector *v, size_t newCapacity);
 
-
+void clear(vector *v);

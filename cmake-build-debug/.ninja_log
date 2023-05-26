@@ -78,3 +78,7 @@
 5	49	7068332758059079	VectorLib/CMakeFiles/data_structures.dir/vector.c.obj	8705e0b08fee1668
 49	90	7068332758479465	VectorLib/libdata_structures.a	799fbf2d8b182ce6
 90	153	7068332759090017	C_Vector_Lab.exe	4c1ac52b834a5859
+1	49	7068333346975808	CMakeFiles/C_Vector_Lab.dir/main.c.obj	13c6b7a3c7c78b46
+5	52	7068333347005838	VectorLib/CMakeFiles/data_structures.dir/vector.c.obj	8705e0b08fee1668
+52	94	7068333347426218	VectorLib/libdata_structures.a	799fbf2d8b182ce6
+94	166	7068333348046774	C_Vector_Lab.exe	4c1ac52b834a5859

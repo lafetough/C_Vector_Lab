@@ -36,3 +36,6 @@ void reserve(vector *v, size_t newCapacity) {
     v->capacity = newCapacity;
 }
 
+void clear(vector *v) {
+    v->size = 0;
+}
