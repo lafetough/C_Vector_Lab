@@ -8,3 +8,7 @@ typedef struct vector {
 
 
 vector createVector(size_t n);
+
+void reserve(vector *v, size_t newCapacity);
+
+

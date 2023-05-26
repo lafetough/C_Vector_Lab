@@ -15,3 +15,24 @@ vector createVector(size_t n) {
     res.size = n;
     return res;
 }
+void reserve(vector *v, size_t newCapacity) {
+    if (newCapacity == 0) {
+        free(v->data);
+        v->capacity = 0;
+        v->size = 0;
+        return;
+    }
+    if (newCapacity <= v->size) {
+        v->size = newCapacity;
+        v->capacity = newCapacity;
+        return;
+    }
+    int* new_data = (int*)malloc(newCapacity * sizeof(int));
+    for (int i = 0; i < v->size; ++i) {
+        new_data[i] = v->data[i];
+    }
+    free(v->data);
+    v->data = new_data;
+    v->capacity = newCapacity;
+}
+
